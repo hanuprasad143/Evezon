@@ -1,7 +1,5 @@
 /** @type {import('tailwindcss').Config} */
 
-import colors from "tailwindcss/colors";
-
 const colors = require("tailwindcss/colors");
 const plugin = require("tailwindcss/plugin");
 
@@ -233,7 +231,6 @@ module.exports = {
   },
   variants: {},
   plugins: [
-    require("tailwindcss"),
     require("@tailwindcss/forms"),
     require("tailwind-clip-path"),
     require("preline/plugin"),
